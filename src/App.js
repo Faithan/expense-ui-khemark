@@ -46,11 +46,11 @@ function App() {
   const saveExpense = async (event) => {
     event.preventDefault();
 
-    const apiUrl = "http://localhost:1234";
+    const apiUrl = "https://workshop-expenses-khemarkapi.onrender.com";
 
     const endpoint = `${apiUrl}/api/expenses`;
 
-    const expense = {
+    const expense = { 
       description: description,
       amount: amount,
       date: date,
